@@ -1,0 +1,42 @@
+ body { 
+  background-color: crimson;
+  font-family: 'Roboto', sans-serif;
+  display: flex;  
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+ }
+
+ /* the actual red button */
+ .button {
+    background-color: #E0115F;
+    height: 295px;
+    width: 295px;
+    border: 2px inset #2e293a;
+    border-radius: 50%;
+    /* gives the viewers the illsuion that the button has height */
+    box-shadow: 0px 20px 0px 0px gray;
+ }
+
+ 
+
+ /* when pressed it'll looked like it was pressed/squished and also turn green */
+ .button:active {
+    transform: translateY(10px);
+    background-color: #50C878;
+    border: 2px inset #FFBF00;
+    box-shadow: 0 15px 0 0 #FFBF00;
+ }
+
+ .words {
+   position: absolute;
+   text-align: center;
+   color: white;
+   top: 100px;
+ }
+.gif {
+position: inherit;
+   
+}
